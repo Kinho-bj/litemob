@@ -1,0 +1,42 @@
+.mob_desk {
+    display: table;
+    width: 100%;
+    background-color: white;
+    height: 600px;
+}
+.mob_desk_text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+.color_link {
+    color: #547ac1;
+}
+.list_1 {
+    list-style-type: none;
+}
+
+.list_1 li:before {
+    content: "- ";
+}
+
+.list_2 {
+    list-style-type: decimal;
+}
+.desk {
+    display: table;
+    vertical-align: middle;
+    width: 100%;
+    background-color: #cdf1fe;
+    height: 200px;
+    padding: 2% 0 2%;
+}
+.desk_con {
+    display: table;
+    width: 100%;
+    background-color: white;
+    height: 400px;
+    padding: 2% 0 2%;
+}

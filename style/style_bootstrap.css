@@ -1,0 +1,41 @@
+.bootstrap {
+    display: table;
+    width: 100%;
+    background-color: #cdf1fe;
+    height: 600px;
+    padding: 2% 0 2%;
+}
+.bootstrap_text {
+    display: table-cell;
+    vertical-align: top;
+    color: black;
+    text-align: center;
+
+}
+
+.bootstrap_text h1,h2 {
+    text-align: left;
+    padding: 0 0 20px;
+    text-transform: uppercase;
+}
+.bootstrap_main{
+    display: table;
+    width: 100%;
+    background-color: white;
+    height: 1500px;
+    padding: 2% 0 2%;
+}
+.boot_bold{
+    font-weight: 600;
+}
+.list_1 {
+    list-style-type: none;
+}
+
+.list_1 li:before {
+    content:"- ";
+}
+
+.list_2 {
+    list-style-type: decimal;
+}

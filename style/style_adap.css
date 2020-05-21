@@ -1,0 +1,44 @@
+.mob_adap {
+    display: table;
+    width: 100%;
+    background-color: #cdf1fe;
+    height: 300px;
+    padding: 1.5% 0 1.5%;
+}
+.mob_adap_text {
+    display: table-cell;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5% 5% 5%;
+}
+.adap {
+    display: table;
+    width: 100%;
+    background-color: white;
+    height: 800px;
+}
+
+.adap_span {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.adap_text {
+    display: table-cell;
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 3% 5% 3%;
+}
+
+.adap_text h2 {
+    font-weight: 600;
+    padding: 0 0 15px;
+}
+
+.adap_img {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 3%;
+}

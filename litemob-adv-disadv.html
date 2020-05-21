@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LITEMOB</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style_adv_dis.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/style_common.css">
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="https://res.cloudinary.com/kinho/image/upload/v1590001400/%D0%BB%D0%BE%D0%B3%D0%BE_tyidw9.png" alt="" class="navbar-brand">
+                <a class="navbar-brand" href="litemob-home.html"><span class="colortext">LITE</span>MOB</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Введение<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="litemob-introduction-adap.html">Адаптивность и Mobile First</a></li>
+                            <li><a href="litemob-introduction-mob-desk.html">Mobile first или Desktop First?</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="litemob-adv-disadv.html">Плюсы и минусы</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Обучение<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="litemob-teaching-bootstrap.html">Фреймворк: Bootstrap</a></li>
+                            <li><a href="litemob-teaching-foundation.html">Фреймворк: Foundation</a></li>
+                        </ul>
+                    <li><a href="litemob-contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="intro_adv_disadv">
+    <section class="intro_title">
+        <h1>Плюсы и минусы в Mobile first</h1>
+        <h3>Важно понимать.</h3>
+    </section>
+</div>
+<div class="adv">
+    <section class="adv_text">
+        <div class="container_text">
+            <h2>Важно рассмотреть основные плюсы данного подхода, для полного и правильного понимания зачем это всё и как это работает.</h2>
+            <ul>
+                <li>Основным плюсом принципа Mobile First является то, что используя его,
+                    сайт будет иметь более топовые позиции в Google, нежели сайты только лишь с desktop версией.</li>
+                <li>Мобильные устройства сейчас очень популярны. Ведь несмотря на современный и быстрый темп жизни, они всегда с нами, в отличие от компьютеров/ноутбуков.</li>
+                <li>Пользователи получают важное содержание страницы в первую очередь, что помогает удержать клиента на сайте на более длительное время,
+                    так как у пользователя не будет нужды искать необходимую информацию на ресурсах, где информация изложена более кратко и понятно.</li>
+                <li>Быстрая загрузка страниц при низкой скорости подключения</li>
+                <li>Интерфейс хорошо адаптирован для навигации в мобильном экране, учитывая все принципы UX дизайна.</li>
+                <li>Навигация по мобильной версии сайта зачастую проще и понятнее для пользователя.</li>
+                <li>Меньше кода – меньше багов (ошибок). Код разрабатываемый по принципу Mobile First зачастую проще, что приводит к тому, что в
+                    ходе тестирование обнаруживается меньше багов.</li>
+                <li>Минимальное количество веб ресурсов требуемое для отображения основного содержимого – экономия мобильного Интернет трафика</li>
+            </ul>
+        </div>
+    </section>
+</div>
+<div class="disadv">
+    <section class="disadv_text">
+        <div class="container_text">
+            <h2>Но также в этом подходе есть и несколько минусов:</h2>
+            <ul class="list_1">
+                <li>Как было упомянуто ранее, в статье <a href="litemob-introduction-adap.html" class="color_link">Адаптивность и Mobile First</a> при разработке по принципу Mobile First,
+                    в мобильную версию сайта входит меньше функционала, нежели в desktop версию. Поэтому разработав сайт по принципу Mobile First,
+                    в случае необходимости сделать десктоп версию, Вам придется добавлять весь упущенный функционал, при этом работая со стилями.
+                    Это создает определенные неудобства в разработке сайта, ведь нарастить определенный функционал в уже сформировавшийся код, сложнее нежели наоборот.</li>
+                <li>Чтобы правильно сделать дизайн мобильной версии сайта, необходимо знать принципы именно мобильного дизайна,
+                    то есть потребуются определенные дополнительные навыки и ресурсы.</li>
+            </ul>
+        </div>
+    </section>
+</div>
+<div class="conclusion">
+    <section class="conc_text">
+        <div class="container_text">
+            <h3>Как мы видим, плюсов у этого подхода в разы больше, нежели минусов. Так что можно сделать вывод, что с помощью этого подхода, владелец сайта
+                действительно может помочь своему бизнесу продвинуться вперед и стать ближе к современности.
+            </h3>
+        </div>
+    </section>
+</div>
+<div class="fixedbut" onclick='window.scrollTo({top: 0, behavior: "smooth"});'>Scroll to Top</div>
+<footer>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-5 col-md-5 col-sm-4 col-xs-12">
+                <ul class="adress">
+                    <span>ИНФО</span>
+                    <li>
+                        <p>Сайт Litemob направлен на то, чтобы помочь новичкам понять, что такое Mobile First, а более опытным вспомнить важные нюансы этого принципа.</p>
+                    </li>
+                    <li><img class="footer_logo" src="https://res.cloudinary.com/kinho/image/upload/v1590001400/%D0%BB%D0%BE%D0%B3%D0%BE_tyidw9.png" alt=""></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <ul class="contact">
+                    <span>Меню</span>
+                    <li>
+                        <a href="litemob-home.html">Главная страница</a>
+                    </li>
+                    <li>
+                        <a href="litemob-introduction-adap.html">Введение: Адаптивность</a>
+                    </li>
+                    <li>
+                        <a href="litemob-introduction-mob-desk.html">Введение: Mobile first или Desktop First?</a>
+                    </li>
+                    <li>
+                        <a href="litemob-adv-disadv.html">Плюсы и Минусы</a>
+                    </li>
+                    <li>
+                        <a href="litemob-teaching-bootstrap.html">Обучение: Фреймворк: Bootstrap</a>
+                    </li>
+                    <li>
+                        <a href="litemob-teaching-foundation.html">Обучение: Фреймворк: Foundation</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <ul class="social">
+                    <span>Связаться с нами:</span>
+                    <li><a href="tel:+38065273916"><i class="fa fa-phone">Телефон: +380965273916</i></a> </li>
+                    <li><a href="https://www.google.com.ua/maps/place/%D1%83%D0%BB.+%D0%91%D0%B0%D0%BA%D1%83%D0%BB%D0%B8%D0%BD%D0%B0,+10,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@50.0158979,36.2246986,17z/data=!3m1!4b1!4m5!3m4!1s0x4127a12438dee973:0x2d78b1ca74a4ddf2!8m2!3d50.0158945!4d36.2268873?hl=ru"><i class="fa fa-map-marker">
+                        Адрес: Бакулина,10 Харьков</i></a></li>
+                    <li><a href="mailto:valeria.kivva@nure.ua"><i class="fa fa-envelope">Почта: valeria.kivva@nure.ua</i></a> </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer_end">2020. Litemob. Все права зарезервированы.</div>
+</footer>
+</body>
+</html>

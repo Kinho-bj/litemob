@@ -1,0 +1,47 @@
+.adv{
+    display: table;
+    width: 100%;
+    background-color: white;
+    height: 600px;
+}
+.adv_text{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+.disadv{
+    display: table;
+    width: 100%;
+    background-color: #d8d8d8;
+    height: 400px;
+}
+.disadv_text{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+.list_1 {
+    list-style-type: none;
+}
+
+.list_1 li:before {
+    content: "- ";
+}
+.conclusion{
+    display: table;
+    width: 100%;
+    background-color: white;
+    height: 200px;
+}
+
+.conc_text{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+    margin: 0;
+}

@@ -1,0 +1,13 @@
+.contacts{
+    display: table;
+    width: 100%;
+    background-color: white;
+    height: 300px;
+    padding: 1.5% 0 1.5%;
+}
+.contacts_text{
+    display: table-cell;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5% 5% 5%;
+}

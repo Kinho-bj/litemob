@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LITEMOB</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style_foundation.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/style_common.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="https://res.cloudinary.com/kinho/image/upload/v1590001400/%D0%BB%D0%BE%D0%B3%D0%BE_tyidw9.png" alt="" class="navbar-brand">
+                <a class="navbar-brand" href="litemob-home.html"><span class="colortext">LITE</span>MOB</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Введение<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="litemob-introduction-adap.html">Адаптивность и Mobile First</a></li>
+                            <li><a href="litemob-introduction-mob-desk.html">Mobile first или Desktop First?</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="litemob-adv-disadv.html">Плюсы и минусы</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Обучение<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="litemob-teaching-bootstrap.html">Фреймворк: Bootstrap</a></li>
+                            <li><a href="litemob-teaching-foundation.html">Фреймворк: Foundation</a></li>
+                        </ul>
+                    <li><a href="litemob-contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="intro_frameworks">
+    <section class="intro_title">
+        <h1>Фреймворки: Часть 2: Foundation</h1>
+    </section>
+</div>
+<div class="foundation">
+    <section class="foundation_text">
+        <div class="container_text">
+            <h2>Теперь поговорим о Foundation.</h2>
+            <p>Основным преимуществом Foundation является то, что он изначально разрабатывался под Mobile first.</p>
+           <p>Foundation, так же как Bootstrap – это очень большие фреймворки, с множеством шаблонов.
+            Прежде, чем использовать эти фреймворки, нужно проанализировать ситуацию и понять, что для Вас будет быстрее
+               – сделать с нуля или разобраться в фрейморке и использовать его.</p>
+
+            <h2>Рассмотрим основные функции данного фреймворка:</h2>
+            <p>Foundation уже довольно долгое время в разработке, поэтому он имеет довольно много функций.</p>
+            <p>Базовые загрузочные файлы не включают в себя HTML-код, что дает возможность сделать его самостоятельно.
+                Но при этом есть очень много примеров HTML кода, которые вы можете использовать и адаптировать под ваш проект.</p>
+
+            <p><span class="text_spec">Как настроить среду с нуля?</span></p>
+            <p><span class="text_spec">Вариант 1</span></p>
+            <p>Есть возможность скачать только те компоненты, которые необходимы вам конкретно для вашего проекта.
+                На странице загрузки можно просто снять пометки с ненужных вам элементов.</p>
+            <p><span class="text_spec">Вариант 2</span></p>
+            <p>Если вы разрабатываете публичный проект, то вам понадобится использование исходных файлов Sass, для того
+                чтобы персонально для вашего проекта настраивать стили.( Sass — это метаязык на основе CSS, который  увеличивает
+                уровень абстракции CSS кода, методом ввода туда разных переменных, примесей и прочих элементов.)</p>
+            <p>После компиляции этих файлов Вам нужно просто оставить на них ссылку в одном из разделов вашего кода, точно так же
+                как и на любой CSS файл. изменения.</p>
+
+            <h2>Основные элементы структуры Foundation</h2>
+            <p><span class="text_spec">Сетки:</span></p>
+            <p>Сетка Foundation без дополнительной настройки это классическая, 12-колонная адаптивная сетка.</p>
+            <p>Существует также так называемая сетка блоков. С помощью неё можно задать необходимое количество элементов,
+                которые будут располагаться один за другим. Это очень удобно, особенно если ваш сайт –
+                это определенная галерея или подобен тому.</p>
+            <p><span class="text_spec"> Пример:</span> 4 блока с контентом расположены один за другим:</p>
+            <div class="code">
+                <p>&lt;ul class = “blockgrid”&gt;</p>
+                <p>&lt;li&gt; Блок 1 &lt;/li&gt;</p>
+                <p>&lt;li&gt; Блок 2 &lt;/li&gt;</p>
+                <p>&lt;li&gt; Блок 3 &lt;/li&gt;</p>
+                <p>&lt;li&gt; Блок 4 &lt;/li&gt;</p>
+                <p>&lt;/ul&gt;</p>
+            </div>
+            <p><span class="text_spec">Формы:</span></p>
+            <p>В Foundation хорошо поработали над формами. Они стали более функциональны и оригинальны.</p>
+            <p>Очень большим преимуществом является то, что Foundation содержит библиотек валидации форм, которая помогает
+                разработчикам реализовывать данную функцию и в конечно результате делает прибывание пользователя на сайте более
+                понятным и доступным.</p>
+
+            <p><span class="text_spec">Навигация:</span></p>
+            <p>В Foundation есть возможность выбирать разные варианты меню навигации, такие как стандартная панель навигации, sidebar меню и прочее.
+                Но есть несколько моментов, которые отличают Foundation от других фреймворков:</p>
+            <ul class="list">
+             <li>Возможность привязки панели навигации при прокрутке. То есть при прокрутке страницы ваше меню всего будет
+                 оставаться сверху страницы и прокручиваться вместе с ней, что значительно упрощает нахождения пользователя на
+                 сайте. Реализуется такая фича с помощью Magellan Sticky Nav.</li>
+            <li>Вертикальная панель навигации, которая всплывает при наведении курсора на край экрана.
+                Реализуется с помощью Offcanvas.</li>
+            </ul>
+            <p><span class="text_spec">Шрифты:</span></p>
+            <p>Настройки шрифтов в Foundation очень просты и понятны. Так как важной частью идее Foundation является удобство пользования,
+                то все шрифты читабельны, понятны и достаточно большие, они будут легко читаться как на расстоянии от компьютера, так и
+                на небольших экранах мобильных устройств.</p>
+
+            <p><span class="text_spec">Кнопки:</span></p>
+            <p>Кнопки в Foundation схожи с стандартными кнопками других фреймворков. Они имеют разные классы для определенных размеров и
+                цветов. Вы можете группировать кнопки, если того требует идея вашего проекта.</p>
+
+            <h3>Чтобы привлечь внимание пользователя и сделать его пребывание на сайте интересным, удобным и полезным порой приходится
+                использовать дополнительные элементы. Сейчас мы расскажем об нескольких таких.</h3>
+
+            <p><span class="text_spec">Подсказки</span>. Такие элементы помогает пользователю получить желаемый для него результат. Более того, когда пользователь легко
+                навигируется на Вашем сайте, он вероятнее всего пробудет на нём больше, чем на сайте, на котором он не может понять, как
+                найти необходимую информацию. Подсказки могут быть применены к любому элементу и тем самым объяснить его назначение.</p>
+
+            <p>С помощью данного фреймворка Вы можете добавлять на сайт различные модальные окна, которые можно редактировать и
+                настраивать разнообразными способа, которые присущи многим фреймворкам. Модальные окна помогают пользователю избежать
+                потери важных данных, уточнить действие пользователя или просто помочь в навигации. Также модальные окна помогают уведомить
+                пользователя о результате того или иного его действия, например, сообщение об успешной регистрации или же об ошибке.</p>
+
+            <p><span class="text_spec">Пример:</span> пользователь заполнил много важной информации на странице регистрации и случайно нажал кнопку перехода на другую
+                страницу, не сохранив данные. Модальное окно поможет уточнить, действительно ли пользователь хочет покинуть данную страницу,
+                не сохранив данные. Это сохранит время и даже нервы пользователя, ведь когда вы полчаса заполняете различные формы, вам бы
+                очень не хотелось потерять эти данные лишь из-за небольшого клика мышкой</p>
+
+            <p>Не обошлось в Foundation и без уведомлений. Их можно закрепить в определенном месте. Они помогают не пропустить полезную
+                информацию, например уведомление о выходе новой статьи или же об отзыве на ваш товар.</p>
+        </div>
+    </section>
+</div>
+<div class="conclusion">
+    <section class="foundation_text">
+        <div class="container_text">
+            <h2>Существует множество подробных туториалов по настройке Foundation и создании небольших проектов.
+                Они помогут вам понять основы работы с данным фрейморком. Foundation сложнее в понимании, чем множество других
+                фреймворков, но результат, который вы получите после работы с ним, того стоит.
+            </h2>
+        </div>
+    </section>
+</div>
+<div class="fixedbut" onclick='window.scrollTo({top: 0, behavior: "smooth"});'>Scroll to Top</div>
+<footer>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-5 col-md-5 col-sm-4 col-xs-12">
+                <ul class="adress">
+                    <span>ИНФО</span>
+                    <li>
+                        <p>Сайт Litemob направлен на то, чтобы помочь новичкам понять, что такое Mobile First, а более опытным вспомнить важные нюансы этого принципа.</p>
+                    </li>
+                    <li><img class="footer_logo" src="https://res.cloudinary.com/kinho/image/upload/v1590001400/%D0%BB%D0%BE%D0%B3%D0%BE_tyidw9.png" alt=""></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <ul class="contact">
+                    <span>Меню</span>
+                    <li>
+                        <a href="litemob-home.html">Главная страница</a>
+                    </li>
+                    <li>
+                        <a href="litemob-introduction-adap.html">Введение: Адаптивность</a>
+                    </li>
+                    <li>
+                        <a href="litemob-introduction-mob-desk.html">Введение: Mobile first или Desktop First?</a>
+                    </li>
+                    <li>
+                        <a href="litemob-adv-disadv.html">Плюсы и Минусы</a>
+                    </li>
+                    <li>
+                        <a href="litemob-teaching-bootstrap.html">Обучение: Фреймворк: Bootstrap</a>
+                    </li>
+                    <li>
+                        <a href="litemob-teaching-foundation.html">Обучение: Фреймворк: Foundation</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <ul class="social">
+                    <span>Связаться с нами:</span>
+                    <li><a href=tel:+38065273916"><i class="fa fa-phone">Телефон: +380965273916</i></a> </li>
+                    <li><a href="https://www.google.com.ua/maps/place/%D1%83%D0%BB.+%D0%91%D0%B0%D0%BA%D1%83%D0%BB%D0%B8%D0%BD%D0%B0,+10,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@50.0158979,36.2246986,17z/data=!3m1!4b1!4m5!3m4!1s0x4127a12438dee973:0x2d78b1ca74a4ddf2!8m2!3d50.0158945!4d36.2268873?hl=ru"><i class="fa fa-map-marker">
+                        Адрес: Бакулина,10 Харьков</i></a></li>
+                    <li><a href="mailto:litemobua@gmail.com"><i class="fa fa-envelope">Почта: litemobua@gmail.com</i></a> </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer_end">2020. Litemob. Все права зарезервированы.</div>
+</footer>
+</body>
+</html>

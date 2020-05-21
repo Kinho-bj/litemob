@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LITEMOB</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style_adap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/style_common.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="https://res.cloudinary.com/kinho/image/upload/v1590001400/%D0%BB%D0%BE%D0%B3%D0%BE_tyidw9.png" alt="" class="navbar-brand">
+                <a class="navbar-brand" href="litemob-home.html"><span class="colortext">LITE</span>MOB</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Введение<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="litemob-introduction-adap.html">Адаптивность и Mobile First</a></li>
+                            <li><a href="litemob-introduction-mob-desk.html">Mobile first или Desktop First?</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="litemob-adv-disadv.html">Плюсы и минусы</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Обучение<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="litemob-teaching-bootstrap.html">Фреймворк: Bootstrap</a></li>
+                            <li><a href="litemob-teaching-foundation.html">Фреймворк: Foundation</a></li>
+                        </ul>
+                    <li><a href="litemob-contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="intro_introduction">
+    <section class="intro_title">
+        <h1><span class="colortext">m</span>obile first и адаптивность</h1>
+        <h3>Есть ли разница?</h3>
+    </section>
+</div>
+<div class="mob_adap">
+    <section class="mob_adap_text">
+        <h3>Бытует мнение, что адаптивность и mobile first – это одно и то же.
+            Но это не совсем так, и сейчас мы расскажем почему.</h3>
+    </section>
+</div>
+<div class="adap">
+<section class="adap_text">
+    <h2>Mobile first и адаптивный дизайн никак не конкуренты, они напротив очень даже хорошо дополняют друг друга.</h2>
+    <div class="container_text">
+        <p><span class="adap_span" >Адаптивный дизайн</span> – это масштабирование под размер экрана различных модулей и элементов сайта, при этом не искажая их размер.
+            Чтобы увеличить скорость загрузки сайта на мобильном устройстве вес файлов должен быть снижен. </p>
+        <p>Когда веб-сайт имеет адаптивный дизайн, это означает, что он будет адаптироваться к определенной ширине пользовательских экранов, что обеспечивает максимальную гибкость.
+            Все устройства имеют широко известную ширину браузера и позволяют разработчикам создавать веб-сайты, которые будут соответствовать их спецификациям.</p>
+        <p>Создание полностью адаптивного веб-сайта требует времени, поскольку оно должно оптимально адаптироваться к ширине каждого браузера.
+            Адаптивная верстка перемещается от большего - экран рабочего стола и приходит к меньшему - экран мобильного устройства.
+            В случае Mobile First всё наоборот.</p>
+    </div>
+    <div class="cont_img">
+    <img class="adap_img" src="https://res.cloudinary.com/kinho/image/upload/v1590002955/apple_noxavv.jpg">
+    </div>
+    <div class="container_text">
+        <p>Когда работает Mobile First в первую очередь загружается основная версия сайта.
+            Она всегда совместима с любой платформой. Затем, в зависимости от платформы или браузера, загружаются новые параметры и стили.
+            Таким образом, версия всегда отображается правильно. По этому принципу сайты разрабатываются начиная с мобильной версии и заканчивая desktop версией.
+            Для этого может потребоваться определенное урезание функционала и не самых основных опций.</p>
+        <p>Так что можно сделать вывод, что эти вещи близки по своей сути, однако всё же не одно и то же.</p>
+    </div>
+</section>
+</div>
+<div class="fixedbut" onclick='window.scrollTo({top: 0, behavior: "smooth"});'>Scroll to Top</div>
+<footer>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-5 col-md-5 col-sm-4 col-xs-12">
+                <ul class="adress">
+                    <span>ИНФО</span>
+                    <li>
+                        <p>Сайт Litemob направлен на то, чтобы помочь новичкам понять, что такое Mobile First, а более опытным вспомнить важные нюансы этого принципа.</p>
+                    </li>
+                    <li><img class="footer_logo" src="https://res.cloudinary.com/kinho/image/upload/v1590001400/%D0%BB%D0%BE%D0%B3%D0%BE_tyidw9.png" alt=""></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <ul class="contact">
+                    <span>Меню</span>
+                    <li>
+                        <a href="litemob-home.html">Главная страница</a>
+                    </li>
+                    <li>
+                        <a href="litemob-introduction-adap.html">Введение: Адаптивность</a>
+                    </li>
+                    <li>
+                        <a href="litemob-introduction-mob-desk.html">Введение: Mobile first или Desktop First?</a>
+                    </li>
+                    <li>
+                        <a href="litemob-adv-disadv.html">Плюсы и Минусы</a>
+                    </li>
+                    <li>
+                        <a href="litemob-teaching-bootstrap.html">Обучение: Фреймворк: Bootstrap</a>
+                    </li>
+                    <li>
+                        <a href="litemob-teaching-foundation.html">Обучение: Фреймворк: Foundation</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <ul class="social">
+                    <span>Связаться с нами:</span>
+                    <li><a href=tel:+38065273916"><i class="fa fa-phone">Телефон: +380965273916</i></a> </li>
+                    <li><a href="https://www.google.com.ua/maps/place/%D1%83%D0%BB.+%D0%91%D0%B0%D0%BA%D1%83%D0%BB%D0%B8%D0%BD%D0%B0,+10,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@50.0158979,36.2246986,17z/data=!3m1!4b1!4m5!3m4!1s0x4127a12438dee973:0x2d78b1ca74a4ddf2!8m2!3d50.0158945!4d36.2268873?hl=ru"><i class="fa fa-map-marker">
+                        Адрес: Бакулина,10 Харьков</i></a></li>
+                    <li><a href="mailto:litemobua@gmail.com"><i class="fa fa-envelope">Почта: litemobua@gmail.com</i></a> </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer_end">2020. Litemob. Все права зарезервированы.</div>
+</footer>
+</body>
+</html>
